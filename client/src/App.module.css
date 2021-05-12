@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background-image: url("./assets/book.jpg");
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox {
+  background-color: #f2eecb;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 10px;
+  height: 30vh;
+  font-size: 1.75rem;
+}
+
+.name {
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #000;
+  text-align: center;
+  padding: 7px;
+}
+
+.old {
+  font-family: "Charm";
+  font-size: 1.75rem;
+}
+
+.new {
+  font-family: "Open Sans";
+}
+
+.textboxWrapper {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.portrait {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.portraitWrapper {
+  margin: 0 10px;
+}
+
+.translateBtn {
+  padding: 20px 80px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  background-color: #f7ce5b;
+}
+
+.btnWrapper {
+  align-self: center;
+}
